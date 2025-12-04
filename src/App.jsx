@@ -1,16 +1,14 @@
-import { Outlet, Link } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import PosturalHealth from './pages/PosturalHealth/PosturalHealth'
 
-export default function App() {
+function App() {
     return (
-        <>
-            <nav style={{ display: "flex", gap: "1rem" }}>
-                <Link to="/">Accueil</Link>
-                {/*<Link to="/profilage">Profilage</Link>*/}
-                {/*<Link to="/instructions">Instructions</Link>*/}
-                {/*<Link to="/produits">Produits</Link>*/}
-            </nav>
-
-            <Outlet />
-        </>
-    );
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/sante-posturale" element={<PosturalHealth />} />
+        </Routes>
+    )
 }
+
+export default App
