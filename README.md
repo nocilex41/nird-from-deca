@@ -1,30 +1,28 @@
+🏥 Formulaire Santé Posturale
+🌐 URLs
 
-🌟 Formulaire Magique - Portail Dimensionnel
-📍 Accès
+Production : https://nird-form.nokcraft.fr/sante-posturale
+Développement : http://localhost:5173/sante-posturale
 
-URL : http://localhost:8000/form/magic
+🚀 Installation et Lancement
+Installation des dépendances
+npm install
+Lancement en développement
+npm run dev
+Build pour la production
+npm run build
+🛠️ Stack Technique
+React
+Le projet utilise React pour plusieurs raisons :
 
-✨ Description
-Ce formulaire immersif simule une insertion vers un monde parallèle ou une autre dimension. L'expérience visuelle a été soigneusement conçue pour captiver l'utilisateur dès son arrivée.
-🎨 Direction Artistique
-Nous avons maintenu une direction artistique fidèle à la demande initiale :
+✅ Simplification du code : Composants réutilisables et maintenables
+✅ Structure organisée : Architecture claire et modulaire
+✅ Stack simple : Technologie éprouvée et documentée
+✅ Scalabilité : Facilite l'évolution et l'ajout de fonctionnalités
 
-Thématique cohérente : Respect des différents thèmes demandés
-Fond stellaire : Un arrière-plan cosmique pour renforcer l'immersion dimensionnelle
-Design ludique et original : Conçu pour attirer même le public le plus jeune
+⚠️ Points d'amélioration
 
-♿ Accessibilité
+📱 Responsive : Quelques problèmes de responsive à corriger sur certains écrans
 
-✅ Navigation au clavier : Tout le formulaire est accessible via la touche Tab
-✅ Expérience utilisateur inclusive
-
-🎯 Objectifs
-
-Créer une expérience visuelle captivante
-Proposer une interface intuitive et ludique
-Attirer une audience multigénérationnelle, y compris les plus jeunes
-
-
-💫 Préparez-vous à franchir le portail vers une autre dimension...
-
- 
+📝 Notes
+Ce formulaire permet de collecter des informations sur la santé posturale des utilisateurs dans un environnement sécurisé et accessible.
